@@ -105,6 +105,16 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let BigViewController: bigViewController = segue.destination as! bigViewController
         BigViewController.count_1 = count
+        
+        if self.timer != nil {
+            self.timer.invalidate()
+            self.timer = nil
+        }
+        susumu_out.isEnabled = true
+        modoru_out.isEnabled = true
+        saisei_out.setTitle("再生", for: .normal)
+        
+        
     }
 }
 
