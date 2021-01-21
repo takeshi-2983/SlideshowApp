@@ -16,17 +16,17 @@ class bigViewController: UIViewController {
     func syori2() {
         switch count_1 {
         case 1:
-            ImageWindow_Up.image = UIImage(named:"Image1")
+            ImageWindow_Up.image = UIImage(named:"Image1.jpg")
         case 2:
-            ImageWindow_Up.image = UIImage(named:"Image2")
+            ImageWindow_Up.image = UIImage(named:"Image2.jpg")
         case 3:
-            ImageWindow_Up.image = UIImage(named:"Image3")
+            ImageWindow_Up.image = UIImage(named:"Image3.jpg")
         case 4:
-            ImageWindow_Up.image = UIImage(named:"Image4")
+            ImageWindow_Up.image = UIImage(named:"Image4.jpg")
         case 0:
             break
         default:
-            ImageWindow_Up.image = UIImage(named:"Image1")
+            ImageWindow_Up.image = UIImage(named:"Image1.jpg")
         }
     }
     

@@ -36,15 +36,15 @@ class ViewController: UIViewController {
     func syori1() {
         switch count {
         case 1:
-            imageWindow.image = UIImage(named:"Image1")
+            imageWindow.image = UIImage(named:"Image1.jpg")
         case 2:
-            imageWindow.image = UIImage(named:"Image2")
+            imageWindow.image = UIImage(named:"Image2.jpg")
         case 3:
-            imageWindow.image = UIImage(named:"Image3")
+            imageWindow.image = UIImage(named:"Image3.jpg")
         case 4:
-            imageWindow.image = UIImage(named:"Image4")
+            imageWindow.image = UIImage(named:"Image4.jpg")
         default:
-            imageWindow.image = UIImage(named:"Image1")
+            imageWindow.image = UIImage(named:"Image1.jpg")
 
         }
     }
@@ -64,7 +64,7 @@ class ViewController: UIViewController {
         syori1()
         
         if count == 0 {
-            imageWindow.image = UIImage(named:"Image4")
+            imageWindow.image = UIImage(named:"Image4.jpg")
             count = 4
         }
     }
@@ -97,7 +97,7 @@ class ViewController: UIViewController {
         count += 1
         syori1()
         if count == 5 {
-            imageWindow.image = UIImage(named:"Image1")
+            imageWindow.image = UIImage(named:"Image1.jpg")
             count = 1
         }
     }
